@@ -10,7 +10,7 @@
 }
 
 .container p:first-of-type:first-letter {
-  color: hsl(352, 58%, 60%);
+  color: hsl(352, 58%, 45%);
   float: left;
   font-size: 72px;
   padding: 12px 8px 0 4px;

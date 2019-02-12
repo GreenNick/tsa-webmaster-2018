@@ -1,0 +1,21 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr min-content min-content 2fr;
+  height: 100vh;
+  text-align: center;
+  background-color: hsl(352, 58%, 60%)
+}
+
+.header h1 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  color: white;
+}
+
+.header p {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  font-size: 24px;
+  color: white;
+}

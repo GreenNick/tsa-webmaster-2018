@@ -1,0 +1,17 @@
+.heading {
+  text-align: center;
+  margin: 50px 0 25px;
+}
+
+.container {
+  column-count: 3;
+  max-width: 1000px;
+  margin: 0 auto 50px;
+}
+
+.container p:first-of-type:first-letter {
+  color: hsl(352, 58%, 60%);
+  float: left;
+  font-size: 72px;
+  padding: 12px 8px 0 4px;
+}

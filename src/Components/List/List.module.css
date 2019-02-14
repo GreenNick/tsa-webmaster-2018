@@ -1,0 +1,32 @@
+.container {
+  max-width: 600px;
+  margin: 50px auto 100px;
+}
+
+.section::before {
+  content: '';
+  display: block;
+  height: 200px;
+  background: var(--bg-color) url('/Images/SquiggleBottom.svg');
+  background-size: cover;
+  visibility: visible;
+}
+
+.heading {
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  font-family: 'Roboto Slab';
+  color: var(--text-color);
+  font-size: 20px;
+  border-left: var(--primary-color) 4px solid;
+}
+
+.list span {
+  float: right;
+  color: var(--primary-color-dark);
+}
+
+/* 2860 */

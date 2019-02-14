@@ -1,0 +1,53 @@
+.section {
+  background-color: var(--primary-color);
+  display: grid;
+  padding-bottom: 50px;
+}
+
+.section::before {
+  content: '';
+  display: block;
+  height: 200px;
+  background: var(--bg-color) url('/Images/SquiggleTop.svg');
+  background-size: cover;
+  visibility: visible;
+}
+
+.container {
+  display: grid;
+  margin: 50px 200px;
+  grid-template-columns: 1fr 200px 3fr;
+  grid-template-rows: 200px min-content min-content;
+}
+
+.textbox {
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+  background-color: white;
+  padding: 50px;
+  box-shadow: var(--shadow-color) 0 0 10px;
+}
+
+.container img {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  background: white;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  box-shadow: var(--shadow-color) 0 0 10px;
+}
+
+/* .container:last-child {
+  grid-template-columns: 3fr 200px 1fr;
+}
+
+.container:last-child .textbox {
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
+}
+
+.container:last-child img {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+} */

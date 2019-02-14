@@ -4,7 +4,7 @@
   grid-template-rows: 1fr min-content min-content 2fr;
   height: 100vh;
   text-align: center;
-  background-color: hsl(352, 58%, 60%)
+  background-color: var(--primary-color)
 }
 
 .header h1 {

@@ -1,5 +1,5 @@
 .container {
-  background-color: hsl(352, 58%, 60%);
+  background-color: var(--primary-color);
   color: white;
   display: grid;
 }

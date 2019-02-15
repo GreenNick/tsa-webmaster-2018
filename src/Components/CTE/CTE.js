@@ -9,7 +9,7 @@ const pathways = [
   (
     <>
       <h3>Engineering</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aperiam eius, similique, dicta dignissimos facere repellendus dolore rerum, deleniti neque excepturi in error esse consequatur fuga ipsam vel. Debitis, alias.</p>
+      <p>This pathway is designed to teach students the fundamentals of Engineering. Students will learn about the Engineering Design Process and apply it to complete projects. Anyone who is joining the Tucker STEM program is required to go through this pathway.</p>
       <h4>Classes</h4>
       <ul>
         <li>Foundations of Engineering & Technology</li>
@@ -21,7 +21,7 @@ const pathways = [
   (
     <>
       <h3>Audio-Video Technology</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aperiam eius, similique, dicta dignissimos facere repellendus dolore rerum, deleniti neque excepturi in error esse consequatur fuga ipsam vel. Debitis, alias.</p>
+      <p>The Audio-Video pathway prepares students for jobs in television and film production. Students are taught about operating film equipment, safety, production principles, lighting, and editing. Students are also instructed on how to behave in a professional environment, so they can act properly with a job.</p>
       <h4>Classes</h4>
       <ul>
         <li>Audio-Video Technology and Film I</li>
@@ -33,7 +33,7 @@ const pathways = [
   (
     <>
       <h3>Web and Digital Design</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aperiam eius, similique, dicta dignissimos facere repellendus dolore rerum, deleniti neque excepturi in error esse consequatur fuga ipsam vel. Debitis, alias.</p>
+      <p>The Web and Digital Design pathway teaches students how to design and build websites and online interactive media. These courses provide instruction on digital technology and help prepare students for a career in web development. Students will learn how to build websites from scratch using HTML, CSS, and JavaScript.</p>
       <h4>Classes</h4>
       <ul>
         <li>Introduction to Digital Technology</li>
@@ -45,7 +45,7 @@ const pathways = [
   (
     <>
       <h3>Entrepreneurship</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aperiam eius, similique, dicta dignissimos facere repellendus dolore rerum, deleniti neque excepturi in error esse consequatur fuga ipsam vel. Debitis, alias.</p>
+      <p>This pathway provides students with the technical and leadership skills required to run a small business. Students will learn about business technologies and how to use them ethically and effectively. They will also learn about financial management and how to make decisions when running a business.</p>
       <h4>Classes</h4>
       <ul>
         <li>Introduction to Business & Technology</li>
@@ -57,7 +57,7 @@ const pathways = [
   (
     <>
       <h3>Marketing and Management</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aperiam eius, similique, dicta dignissimos facere repellendus dolore rerum, deleniti neque excepturi in error esse consequatur fuga ipsam vel. Debitis, alias.</p>
+      <p>This course pathway provides students with the knowledge and experience necessary to work in the marketing field. Students will learn how to manage interactions between consumers and businesses, and utilize technology for digital marketing. Students will engage in problem based learning projects for these classes.</p>
       <h4>Classes</h4>
       <ul>
         <li>Marketing Principles</li>
@@ -92,7 +92,7 @@ const CTE = () => (
       title='Tucker STEM Program'
       src='#'
       alt=''>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque ea asperiores sapiente voluptate reprehenderit soluta at odio officia autem veniam repellat iusto, ratione fugit eius est, ex sed harum eveniet? Atque neque quibusdam, corrupti ad, similique mollitia ratione suscipit quod ipsa eum amet illum et commodi aspernatur aut rerum voluptatum cupiditate animi eaque. Doloribus, alias nihil? Magnam, omnis exercitationem. Tempore.</p>
+      <p>The Tucker STEM Program was established four years ago by our teacher Ms. Todd. In that time we have done impressive work in our local community and helped to better incorporate STEM subjects into our daily curriculum. We have worked extensively at our local lake, monitoring the ecosystem and trying to control volatile algal blooms. We have created a pollinator garden near the lake and we are constructing a greenhouse at our school. In the STEM program, we have a focus on hands-on and problem based learning projects to teach. We are currently in the process of trying to get our program certified which we hope to achieve soon.</p>
     </BrokenGrid>
     <Teachers />
     <BlockSections title='Career Pathways' blocks={pathways} />

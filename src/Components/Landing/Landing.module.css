@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr min-content min-content 2fr;
+  grid-template-rows: 1fr min-content min-content 2fr min-content;
   height: 100vh;
   text-align: center;
   background-color: var(--primary-color)
@@ -18,4 +18,27 @@
   grid-column: 2 / 3;
   font-size: 24px;
   color: white;
+}
+
+.nav {
+  grid-row: 5 / 6;
+  grid-column: 2 / 3;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav ul a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 8px;
+  border-bottom: 4px solid var(--primary-color);
+  transition: border-bottom 100ms ease-in-out;
+}
+
+.nav ul a:hover {
+  border-bottom: 4px solid white;
 }

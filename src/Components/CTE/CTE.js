@@ -86,7 +86,7 @@ const projects = [
 const CTE = () => (
   <main>
     <Landing
-      title='Career and Technology/Engineering Program'
+      title='Career & Technology / Engineering Program'
       tagline='' />
     <BrokenGrid
       title='Tucker STEM Program'

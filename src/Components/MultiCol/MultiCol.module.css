@@ -15,3 +15,10 @@
   font-size: 72px;
   padding: 12px 8px 0 4px;
 }
+
+@media (max-width: 1000px) {
+  .container {
+    column-count: 1;
+    margin: 0 40px 50px;
+  }
+}

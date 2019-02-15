@@ -1,6 +1,6 @@
 .header {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr min-content min-content 2fr min-content;
   height: 100vh;
   text-align: center;
@@ -47,4 +47,14 @@
 
 .nav ul a:hover {
   border-bottom: 4px solid white;
+}
+
+@media (max-width: 1400px) {
+  .header {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    display: none;
+  }
 }

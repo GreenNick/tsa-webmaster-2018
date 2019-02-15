@@ -20,13 +20,13 @@
 
 .block h3 {
   text-align: left;
-  width: 70%;
+  max-width: 70%;
   margin: 0 auto 25px;
 }
 
 .block h4 {
   text-align: left;
-  width: 70%;
+  max-width: 70%;
   margin: auto;
 }
 
@@ -40,4 +40,19 @@
   text-align: left;
   max-width: 70%;
   margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    grid-template-columns: 1fr;
+    margin: 50px 40px;
+  }
+
+  .heading {
+    grid-column: 1 / 2;
+  }
+
+  .block h3, .block h4, .block p, .block ul {
+    max-width: 100%;
+  }
 }

@@ -1,0 +1,39 @@
+.section {
+  background-color: var(--primary-color-dark);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.heading {
+  margin-top: 50px;
+  color: white;
+  grid-column: 2 / 3;
+  text-align: center;
+}
+
+.container {
+  margin: 25px 40px 50px;
+  grid-column: 2 / 3;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.album {
+  display: grid;
+  justify-content: center;
+}
+
+.album p {
+  color: white;
+}
+
+.album img {
+  object-fit: cover;
+  border-radius: 4px;
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  box-shadow: var(--shadow-color) 0 0 10px;
+}

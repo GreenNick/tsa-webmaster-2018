@@ -70,7 +70,7 @@ const pathways = [
 
 const projects = [
   {
-    src: '#',
+    src: '/Images/Projects.jpg',
     alt: '',
     content: (
       <>
@@ -90,7 +90,7 @@ const CTE = () => (
       tagline='' />
     <BrokenGrid
       title='Tucker STEM Program'
-      src='#'
+      src='/Images/Stem.jpg'
       alt=''>
       <p>The Tucker STEM Program was established four years ago by our teacher Ms. Todd. In that time we have done impressive work in our local community and helped to better incorporate STEM subjects into our daily curriculum. We have worked extensively at our local lake, monitoring the ecosystem and trying to control volatile algal blooms. We have created a pollinator garden near the lake and we are constructing a greenhouse at our school. In the STEM program, we have a focus on hands-on and problem based learning projects to teach. We are currently in the process of trying to get our program certified which we hope to achieve soon.</p>
     </BrokenGrid>
